@@ -1,5 +1,8 @@
 /* styles/globals.css */
 
+/* Import Montserrat from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* Reset some default styles */
 * {
   margin: 0;
@@ -9,8 +12,8 @@
 
 /* Apply base styles to the body */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* fallback fonts */
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Montserrat + fallbacks */
   font-optical-sizing: auto; /* required */
   background-color: #fff;
   color: #000;
