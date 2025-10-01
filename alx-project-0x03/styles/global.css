@@ -1,7 +1,8 @@
-/* Apply global font settings */
+
+/* styles/globals.css */
 body {
-  font-family: Arial, Helvetica, sans-serif; /* fallback fonts */
-  font-optical-sizing: auto; /* required property */
+  font-family: 'Inter', Arial, sans-serif;
+  font-optical-sizing: auto;
   margin: 0;
   padding: 0;
 }
